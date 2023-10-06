@@ -5,7 +5,7 @@ on: push
 jobs:
   super-lint:
     name: Lint code base
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-lstest
     steps:
       - name: Checkout code
         uses: action/checkout@v2
